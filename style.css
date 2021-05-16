@@ -1,0 +1,83 @@
+/*
+Theme Name: BrainGears
+Theme URI: https://github.com/Drakmyth/wp-braingears
+Template: diagnoseo
+Author: Shaun Hamman
+Author URI: https://drakmyth.com
+Description: Theme for the BrainGears blog.
+Version: 1.0
+Requires at least: 5.5
+Tested up to: 5.7
+Requires PHP: 5.6
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: braingears
+Tags: one-column, two-columns, three-columns, four-columns, right-sidebar, custom-menu, editor-style, featured-images, flexible-header, microformats, sticky-post, threaded-comments, translation-ready, blog, news
+*/
+
+.site-header .site-title div.logo,.site-header .mainmenu div.logo {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto auto;
+	align-self: flex-end;
+}
+
+.site-header .mainmenu div.logo {
+	display:none;
+}
+
+@media(min-width: 1240px) {
+	.site-header .mainmenu div.logo {
+		display:grid;
+	}
+}
+
+.site-header .site-title div.logo > *,.site-header .mainmenu div.logo > * {
+	grid-column:2;
+	grid-row: 1;
+	align-self: end;
+	justify-self: left;
+	padding-left: 20px;
+}
+
+.site-header .site-title div.logo :first-child,
+.site-header .mainmenu div.logo :first-child {
+	grid-column: 1;
+	grid-row: span 2;
+	justify-self: center;
+	max-height: 60px;
+	padding-left: 0;
+}
+
+.site-header .site-title div.logo a,.site-header .mainmenu div.logo a {
+	transition:none;
+}
+
+.site-header .site-title div.logo a:hover,
+.site-header .mainmenu div.logo a:hover {
+	transform:none;
+}
+
+.site-header .site-title div.logo a img,.site-header .mainmenu div.logo a img {
+	transition: none;
+}
+
+.site-header .site-title div.logo .site-tagline,.site-header .mainmenu div.logo .site-tagline {
+	align-self: center;
+	grid-row: 2;
+}
+
+@media(max-width: 600px) {
+	.site-header .site-title div.logo .site-tagline,.site-header .mainmenu div.logo .site-tagline {
+		display: none;
+	}
+	
+	.site-header .site-title div.logo > *,.site-header .mainmenu div.logo > * {
+		grid-row: span 2;
+		align-self: center;
+	}
+}
+
+.post.single .post-author,.post.single ~ .post-nav,.post.single ~ .related-posts.additional-post-list {
+	display: none;
+}
