@@ -78,6 +78,9 @@ Tags: one-column, two-columns, three-columns, four-columns, right-sidebar, custo
 	}
 }
 
-.post.single .post-author,.post.single ~ .post-nav,.post.single ~ .related-posts.additional-post-list {
+.post.single .post-author,
+.post.single ~ .post-nav,
+.post.single ~ .related-posts.additional-post-list,
+.post.single ~ .latest-posts.additional-post-list {
 	display: none;
 }

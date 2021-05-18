@@ -17,6 +17,7 @@ Theme for the BrainGears blog.
 * Redesigned header to display logo and title simultaneously.
 * First page of blog posts will display entire posts rather than just excerpts.
 * Hid related posts block in favor of Related Posts widget.
+* Hid latest posts block in favor of Recent Posts widget.
 
 == Changelog ==
 
