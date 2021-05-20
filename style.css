@@ -84,3 +84,16 @@ Tags: one-column, two-columns, three-columns, four-columns, right-sidebar, custo
 .post.single ~ .latest-posts.additional-post-list {
 	display: none;
 }
+
+.wp-caption {
+	background: #F3F3F3;
+	padding: 5px;
+	border: solid 1px #DDDDDD;
+	border-radius: 4px;
+}
+
+.wp-caption-text {
+	margin: 0;
+	padding-top: 3px;
+	color: #343434;
+}
