@@ -97,3 +97,18 @@ Tags: one-column, two-columns, three-columns, four-columns, right-sidebar, custo
 	padding-top: 3px;
 	color: #343434;
 }
+
+.post-note {
+	border: solid 1px orange;
+	border-radius: 4px;
+	background: cornsilk;
+	padding: 10px;
+}
+
+.inlinecode {
+	padding: 2px 4px;
+	background: #F3F3F3;
+	border: 1px solid #DDDDDD;
+	color: #000;
+	font-family: monospace !important;
+}

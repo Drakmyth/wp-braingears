@@ -18,6 +18,7 @@ Theme for the BrainGears blog.
 * First page of blog posts will display entire posts rather than just excerpts.
 * Hid related posts block in favor of Related Posts widget.
 * Hid latest posts block in favor of Recent Posts widget.
+* Adds [note] and [il] shortcodes.
 
 == Changelog ==
 
